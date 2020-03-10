@@ -17,20 +17,16 @@
       }
 
       public function add(){
-        $sum = $this->x + $this->y;
-        return $sum;
+        return $this->x + $this->y;
       }
       public function subtract(){
-        $difference = $this->x - $this->y;
-        return $difference;
+        return $this->x - $this->y;
       }
       public function multiply(){
-        $product = $this->x * $this->y;
-        return $product;
+        return $this->x * $this->y;
       }
       public function divide(){
-        $quotient = $this->x / $this->y;
-        return $quotient;
+        return $this->x / $this->y;
       }
     }
     $mycalc = new MyCalculator(12, 6);
